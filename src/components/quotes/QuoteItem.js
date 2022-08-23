@@ -1,7 +1,8 @@
-import classes from './QuoteItem.module.css';
+import classes from "./QuoteItem.module.css";
 
 const QuoteItem = (props) => {
   return (
+    //eslint-disable-next-line
     <li className={classes.item}>
       <figure>
         <blockquote>
@@ -9,9 +10,7 @@ const QuoteItem = (props) => {
         </blockquote>
         <figcaption>{props.author}</figcaption>
       </figure>
-      <a className='btn'>
-        View Fullscreen
-      </a>
+      <a className="btn">View Fullscreen</a>
     </li>
   );
 };
