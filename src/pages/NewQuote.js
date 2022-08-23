@@ -1,5 +1,5 @@
 const NewQuote = () => {
-  return <p>NewQuote</p>;
+  return <h1>NewQuote</h1>;
 };
 
 export default NewQuote;
